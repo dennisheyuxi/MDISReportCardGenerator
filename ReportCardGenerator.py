@@ -176,7 +176,7 @@ class MainWindow(QtWidgets.QWidget):
 
     def on_finished(self):
         self.reset_ui()
-        QtWidgets.QMessageBox.information(self, "Success", "Report cards generated successfully!")
+        QtWidgets.QMessageBox.information(self, "Success", "Report cards generated successfully")
 
     def showFullScreen(self):
         pass
